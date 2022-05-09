@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html,
+body {
+    background: rgb(69, 69, 69);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.fixedW {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 0;
+    background: rgb(20, 20, 20);
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+    transition: 0.3s ease-in-out;
+}
+
+.operator {
+    background-color: rgb(38, 38, 38);
+}
+
+.eval {
+    background-color: rgb(255, 91, 91);
+}
+
+.eval:hover {
+    background-color: rgb(172, 27, 27);
+    transition: 0.3s ease-in-out;
+}
+
+.input {
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 108, 108);
+    padding: 0px 20px;
+    font-size: 20px;
+    border: 0;
+    width: 256px;
+    height: 41px;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(67, 67, 67);
+}
+
+.bs {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(104deg) brightness(102%) contrast(102%);
+    width: auto;
+    height: 31px;
+}
+
+.ac {
+    background-color: rgb(0, 255, 208);
+    color: #272727;
+}
+
+.ac:hover {
+    background-color: rgb(58, 153, 136);
+}
