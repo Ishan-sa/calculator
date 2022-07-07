@@ -8,7 +8,7 @@ body {
 
 .heading {
     font-weight: 500;
-    color: white;
+    color: #272727;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ button:hover {
 
 .input {
     color: rgb(255, 255, 255);
-    background-color: rgb(108, 108, 108);
+    background-color: rgb(27, 27, 27);
     padding: 0px 20px;
     font-size: 20px;
     border: 0;
@@ -81,4 +81,12 @@ button:hover {
 
 .ac:hover {
     background-color: rgb(58, 153, 136);
+}
+
+.mainCont{
+    object-fit: cover;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
 }

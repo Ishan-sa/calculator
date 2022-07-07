@@ -8,6 +8,10 @@ Array.from(buttons).forEach((button) => {
             string = eval(string);
             document.querySelector('input').value = string;
         }
+        /* else if (e.target.innerHTML === '=') {
+            (e.keycode === 13) = eval(string);
+            document.querySelector('input').value = string;
+        } */
         else if (e.target.innerHTML === 'AC') {
             string = "";
             document.querySelector('input').value = string;
@@ -27,5 +31,5 @@ function onPressBackspace() {
 }
 
 function enterKey() {
-
+    evalBtn.addEventListener('keyup')
 }
